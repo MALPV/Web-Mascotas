@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebAppMascotas.Models.Mascota>
+
+<H3>
+    @Html.ActionLink("Registrar otra mascota", "Create")
+</H3>
+<table class="table">
+    <tr>
+        <th>
+            ID Mascota
+        </th>
+        <th>
+            Nombre Mascota
+        </th>
+        <th>
+            Raza
+        </th>
+        <th>
+            Edad
+        </th>
+        <th>
+            Sexo
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nomMascota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.raza)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.edad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sexo)
+        </td>
+        <td>
+            @Html.ActionLink("Actualizar Datos", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.id })
+        </td>
+    </tr>
+}
+
+</table>

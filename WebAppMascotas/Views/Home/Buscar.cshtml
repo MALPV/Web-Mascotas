@@ -1,0 +1,62 @@
+﻿@model Negocio.EMascota
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3>Busqueda de Mascota</h3>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class = "control-label col-md-2">Ingrese ID Mascota</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Buscar" class="btn btn-default" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Nombre Mascota</label>
+            <div class="col-md-10">
+                <label>@Model.nomMascota</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Raza</label>
+            <div class="col-md-10">
+                <label>@Model.raza</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Edad</label>
+            <div class="col-md-10">
+                <label>@Model.edad</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Sexo</label>
+            <div class="col-md-10">
+                <label>@Model.sexo</label>
+            </div>
+        </div>
+
+    </div>
+
+    <p>
+        @Html.ActionLink("Actualizar Datos", "Edit", new { id = Model.id })
+    </p>
+}
+
+<div>
+    @Html.ActionLink("Volver al Inicio", "Index")
+</div>

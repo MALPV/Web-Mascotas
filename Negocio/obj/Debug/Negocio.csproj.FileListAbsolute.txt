@@ -1,0 +1,12 @@
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\bin\Debug\Negocio.dll
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\bin\Debug\Negocio.pdb
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.dll
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.pdb
+C:\Users\marco\Documents\Documentos Inacap\2019\Programación Avanzada\Ejercicios\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\bin\Debug\Negocio.dll
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\bin\Debug\Negocio.pdb
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.dll
+C:\Users\marco\Downloads\Web\WebAppMascotasPrueba\Negocio\obj\Debug\Negocio.pdb
